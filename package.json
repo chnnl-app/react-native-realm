@@ -1,0 +1,55 @@
+{
+  "name": "react-native-realm",
+  "version": "0.1.1",
+  "description": "A higher-order component for listening to Realm data in React Native components.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jest src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonmerino/react-native-realm.git"
+  },
+  "keywords": [
+    "realm",
+    "react native",
+    "ios",
+    "android"
+  ],
+  "author": "Jason Merino",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jasonmerino/react-native-realm/issues"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.js"
+    ],
+    "preset": "react-native",
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/example/node_modules/"
+    ],
+    "modulePathIgnorePatterns": [
+      "<rootDir>/example/"
+    ],
+    "modulePaths": [
+      "src"
+    ],
+    "resetModules": true,
+    "notify": true
+  },
+  "homepage": "https://github.com/jasonmerino/react-native-realm#readme",
+  "dependencies": {
+    "hoist-non-react-statics": "1.2.0",
+    "prop-types": "15.5.10"
+  },
+  "devDependencies": {
+    "babel-jest": "20.0.3",
+    "babel-preset-react-native": "2.0.0",
+    "jest": "20.0.4",
+    "react": "15.6.1",
+    "react-native": "0.45.1",
+    "regenerator-runtime": "0.10.5"
+  }
+}
